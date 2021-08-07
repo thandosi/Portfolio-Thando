@@ -1,0 +1,89 @@
+#education{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.edu{
+  line-height: 2px;
+}
+
+.cv{
+  height: 800px;
+  padding: 80px;
+
+}
+
+.block{
+  background-color: purple;
+  height: 20vh;
+  
+}
+
+
+  .sub{
+    color: white;
+    margin-bottom: 5px;
+  }
+
+  .year1{
+    text-align: center;
+  }
+  .ordered{
+    margin-top: 20px;
+    text-align: center;
+  }
+  .tittle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+  }
+  .year2{
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .college{
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .tech{
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .col{
+    text-align: center;
+  }
+
+  .cards1{
+    padding:20px;
+    
+  }
+  ul{
+    list-style: none;
+  }
+
+.discription{
+  text-align: center;
+}
+  
+.school{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+@media only screen and (max-width:768px){
+  .cv{
+    height: 1300PX;
+  }
+  .list{
+    width: 100%;
+  }
+}

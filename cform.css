@@ -1,0 +1,96 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+#contact{
+  display: flex;
+  min-height: 100vh;
+}
+
+.get_intouch{
+  background-color: purple;
+  min-height: 100%;
+  min-width: 20%;
+}
+
+.form{
+  min-width: 40%;
+  padding: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.map{
+  min-height: 100%;
+}
+
+.side{
+  color: white;
+  font-size: 40px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.form-input {
+  background-color: black;
+  color: rgb(221, 192, 192);
+margin-bottom: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); 
+width: 100%;
+padding: 10px;
+outline: none;
+
+}
+
+.side{
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+
+}
+
+.head-bar{
+  line-height: 2px;
+  float: left;
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width:600px){
+  #contact {
+      display: flex;
+      flex-direction: column;
+  }
+  .form-input{
+    width: 10px;
+  }
+  
+  .form{
+    display: flex;
+
+  }
+
+  .side{
+    background-color: black;
+    margin-top: 40px;
+  }
+
+  .map{
+    width:10px;
+  }
+
+  .get_intouch{
+    background-color: black;
+  }
+
+  h1.head-bar{
+    
+  }
+
+  div.map{
+    width: 350px;
+  }
+}

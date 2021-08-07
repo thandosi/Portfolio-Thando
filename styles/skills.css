@@ -1,0 +1,150 @@
+.about{
+    min-height: 100vh;
+    display: flex;
+    align-items: stretch;
+    
+
+}
+
+.me{
+    width: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    
+}
+
+
+
+.skill{
+    background-color: purple;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10%;
+}
+
+.skill-container{
+    margin-bottom: 50px;
+
+}
+
+.skills{
+    line-height: 2px;
+}
+
+.names{
+    font-size: 17px;
+    color: white;
+
+}
+
+.values{
+    float: right;
+    font-size: 17px;
+    color: white;
+
+}
+
+.progress{
+    height: 10px;
+    background-color: white;
+    transition: 2s;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.line{
+    font-size: 14px;
+    line-height: 1.5;
+    color: pink;
+}
+
+.aspire{
+    color: white;
+}
+
+.separator{
+    height: 3px;
+    width: 90px;
+    display: block;
+    background-color: #eb83f8;
+}
+.aboutme{
+    line-height: 2px;
+}
+
+p{
+    color: white;
+    padding: 10px;
+}
+
+.social-icons{
+    margin-top: 10px;
+    padding: 1;
+    font-size: 25px;
+    color: white;
+}
+
+.aspire{
+    font-size: 50px;
+    line-height: 50px;
+    margin: 10px 0 20px;
+    font-weight: 800;
+}
+
+p{
+font-size: 14px;
+margin-top: 20px;
+font-weight: 300;
+line-height: 1.3;
+box-sizing: border-box;
+
+}
+
+.line-text{
+    box-sizing: border-box;
+    font-size: 14px;
+    list-style: 1.5;
+    color: violet;
+}
+
+h4{
+    left: 110px;
+    position: relative;
+    font-weight: 500;
+    color: white;
+    
+    
+}
+.my-skill{
+    margin-bottom: 30px;
+}
+
+
+@media only screen and (max-width:768px){
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    .skill{
+        width: 100%;
+        padding: 50px;
+    }
+
+    .me{
+        width: 100%;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .list{
+        width: 200px;
+    }
+}

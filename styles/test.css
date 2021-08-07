@@ -1,0 +1,44 @@
+.name {
+  color: white;
+}
+
+q{
+  color: white;
+  text-align: center;
+}
+
+.owl-carousel{
+  padding: 70px;
+}
+
+
+
+.container {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 70px;
+}
+
+.image{
+  border-radius: 50px;
+}
+
+.monial{
+  line-height: 2px
+}
+.name{
+  margin-top: 10px;
+}
+
+@media only screen and (max-width:600px){
+  .owl-carousel .owl-stage {
+      display: flex;
+      justify-content: space-between;
+  }
+}
